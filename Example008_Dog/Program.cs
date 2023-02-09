@@ -8,10 +8,11 @@ double time = distance / (velocityDog - velocityMen_1);
 double distanceMen_2 = time * velocityMen_2;
 double distanceMen_1 = time * velocityMen_1;
 distance = distance + distanceMen_1 - distanceMen_2;
+step++;
 
 while (distance > stopProg)
 {
-    step = step + 1;
+    step++;
     time = distance / (velocityDog + velocityMen_2);
     distanceMen_2 = time * velocityMen_2;
     distanceMen_1 = time * velocityMen_1;
