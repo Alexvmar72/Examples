@@ -31,4 +31,4 @@ while (distance > stopProg)
 
 Console.Write("Собака пробежит от одного к другому: ");
 Console.Write(step);
-Console.WriteLine("раз.");
+Console.WriteLine(" раз.");
